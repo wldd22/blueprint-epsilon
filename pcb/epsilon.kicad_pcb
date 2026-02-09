@@ -3826,7 +3826,7 @@
 	(footprint "Panelization:MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h"
 		(layer "F.Cu")
 		(uuid "3c804075-c607-497b-a465-d27269f8162a")
-		(at 176.6595 81.0851)
+		(at 164.7825 58.954)
 		(descr "Break slot 2mm, small: L=2mm, holes outset (sand flat with edge)")
 		(tags "mousebite stamp slot break tab 2mm edge outset")
 		(property "Reference" "H3"
@@ -5364,7 +5364,7 @@
 	(footprint "Panelization:MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h"
 		(layer "F.Cu")
 		(uuid "4965792a-6a8c-470e-998a-c0d2c3e4128b")
-		(at 176.6595 87.8351)
+		(at 164.7825 65.704)
 		(descr "Break slot 2mm, small: L=2mm, holes outset (sand flat with edge)")
 		(tags "mousebite stamp slot break tab 2mm edge outset")
 		(property "Reference" "H7"
@@ -10470,7 +10470,7 @@
 	(footprint "Panelization:MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h"
 		(layer "F.Cu")
 		(uuid "771fdf57-b502-4b7a-b018-269bc607cee0")
-		(at 176.6595 77.7101)
+		(at 164.7825 55.579)
 		(descr "Break slot 2mm, small: L=2mm, holes outset (sand flat with edge)")
 		(tags "mousebite stamp slot break tab 2mm edge outset")
 		(property "Reference" "H1"
@@ -20489,7 +20489,7 @@
 	(footprint "Panelization:MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h"
 		(layer "F.Cu")
 		(uuid "dcf2b82b-fb33-4af9-9b69-2a73bbf9a039")
-		(at 176.6595 84.4601)
+		(at 164.7825 62.329)
 		(descr "Break slot 2mm, small: L=2mm, holes outset (sand flat with edge)")
 		(tags "mousebite stamp slot break tab 2mm edge outset")
 		(property "Reference" "H5"
