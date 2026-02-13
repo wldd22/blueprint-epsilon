@@ -659,89 +659,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "OPL Lib:XIAO-nRF52840-SMD"
 			(pin_names
 				(offset 1.016)
@@ -1457,17 +1374,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Mounting Holes"
-		(exclude_from_sim no)
-		(at 141.478 150.622 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0986a521-4089-4548-9bd9-786344dc6ec5")
-	)
 	(text "Battery Sense"
 		(exclude_from_sim no)
 		(at 123.698 178.308 0)
@@ -1481,7 +1387,7 @@
 	)
 	(text "Test Points\n"
 		(exclude_from_sim no)
-		(at 118.618 150.622 0)
+		(at 131.318 150.622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1656,12 +1562,6 @@
 		(uuid "61c005df-2e1f-4ee3-ad07-575fc10bb340")
 	)
 	(junction
-		(at 213.36 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "641aa48d-5956-4f58-b051-fcc01c729ab5")
-	)
-	(junction
 		(at 140.97 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1702,6 +1602,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85d8b2c2-c6ac-47b7-b4ac-64fd60bd205c")
+	)
+	(junction
+		(at 261.62 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bf63467-4fb7-4a1c-b0f3-4f350c4bd411")
 	)
 	(junction
 		(at 261.62 41.91)
@@ -1752,10 +1658,10 @@
 		(uuid "a818ead0-b131-4f48-b54d-00365588a54d")
 	)
 	(junction
-		(at 237.49 110.49)
+		(at 213.36 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aa793730-c507-4bfd-b362-eebe11360317")
+		(uuid "ab8a5408-d564-4e62-9dec-317d2ae1aaaf")
 	)
 	(junction
 		(at 58.42 45.72)
@@ -1788,6 +1694,12 @@
 		(uuid "bd66b542-b2d7-425d-9540-92f2f894b15f")
 	)
 	(junction
+		(at 237.49 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c340901c-c43b-4d6a-afd8-d15752cf7f15")
+	)
+	(junction
 		(at 31.75 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1798,12 +1710,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc17bbad-c9e1-483f-bf3d-e26a452f1a15")
-	)
-	(junction
-		(at 261.62 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd54b0d2-c23d-4e2a-8c78-e2e2f4350e1e")
 	)
 	(junction
 		(at 189.23 41.91)
@@ -1885,7 +1791,7 @@
 	)
 	(no_connect
 		(at 181.61 99.06)
-		(uuid "24fbc90e-da40-4245-a159-be88cbbdeb37")
+		(uuid "20d2e611-6922-4c35-8819-222b847e6374")
 	)
 	(no_connect
 		(at 55.88 129.54)
@@ -1924,6 +1830,16 @@
 			(type default)
 		)
 		(uuid "0072e00e-703c-4837-a6e1-66e8a4295afe")
+	)
+	(wire
+		(pts
+			(xy 237.49 110.49) (xy 261.62 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00834b6c-36b7-49ac-a1b0-d5aa516159e7")
 	)
 	(wire
 		(pts
@@ -2107,17 +2023,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 110.49) (xy 237.49 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e49440a-bba9-46e9-863f-9ab97c92e8a0")
-	)
-	(wire
-		(pts
-			(xy 269.24 41.91) (xy 261.62 41.91)
+			(xy 261.62 41.91) (xy 266.7 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2144,16 +2050,6 @@
 			(type default)
 		)
 		(uuid "21f78373-2879-43fa-8ad9-158f463972bf")
-	)
-	(wire
-		(pts
-			(xy 165.1 41.91) (xy 165.1 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "231f6d8b-6caf-493d-a725-122ef1ce04ee")
 	)
 	(wire
 		(pts
@@ -2217,7 +2113,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 110.49) (xy 237.49 110.49)
+			(xy 213.36 110.49) (xy 189.23 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2454,6 +2350,16 @@
 			(type default)
 		)
 		(uuid "386895b2-779e-47de-8e29-3db908e54d55")
+	)
+	(wire
+		(pts
+			(xy 261.62 110.49) (xy 276.86 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39564283-91f8-4e57-9860-4dea87c90132")
 	)
 	(wire
 		(pts
@@ -2727,13 +2633,13 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 88.9) (xy 269.24 87.63)
+			(xy 165.1 41.91) (xy 165.1 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61f99edd-1bea-4472-b233-28d8d99110c4")
+		(uuid "619848a1-a12e-462a-8297-4b6adc5410bd")
 	)
 	(wire
 		(pts
@@ -2797,16 +2703,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 41.91) (xy 269.24 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68fddc22-8e9c-4113-9aff-32c844f35beb")
-	)
-	(wire
-		(pts
 			(xy 74.93 45.72) (xy 91.44 45.72)
 		)
 		(stroke
@@ -2814,6 +2710,16 @@
 			(type default)
 		)
 		(uuid "6906a82d-be92-4405-af1f-0c1f01653266")
+	)
+	(wire
+		(pts
+			(xy 213.36 110.49) (xy 237.49 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6934d97d-c9b4-4772-a50c-9ff8f3e4b579")
 	)
 	(wire
 		(pts
@@ -3007,16 +2913,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 30.48) (xy 133.35 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c356866-bbc9-4dde-9bb3-e73e159f6283")
-	)
-	(wire
-		(pts
 			(xy 81.28 36.83) (xy 81.28 52.07)
 		)
 		(stroke
@@ -3097,7 +2993,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 132.08) (xy 130.81 132.08)
+			(xy 138.43 132.08) (xy 143.51 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3174,16 +3070,6 @@
 			(type default)
 		)
 		(uuid "a1049734-8e56-46cb-b000-091f2e080b91")
-	)
-	(wire
-		(pts
-			(xy 261.62 110.49) (xy 276.86 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a12a33a4-51e7-46d0-9341-2e3f4165e2ba")
 	)
 	(wire
 		(pts
@@ -3657,7 +3543,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 140.97) (xy 125.73 140.97)
+			(xy 139.7 140.97) (xy 138.43 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3744,6 +3630,16 @@
 			(type default)
 		)
 		(uuid "e1f2e439-693f-4740-9556-5f0feada7978")
+	)
+	(wire
+		(pts
+			(xy 125.73 30.48) (xy 133.35 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e230646e-70ac-45bc-81fb-9821e3e03119")
 	)
 	(wire
 		(pts
@@ -3837,7 +3733,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 87.63) (xy 261.62 87.63)
+			(xy 261.62 87.63) (xy 266.7 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3905,16 +3801,6 @@
 		)
 		(uuid "fa3d48a7-0d54-42e1-b5bf-bf80fa45f175")
 	)
-	(wire
-		(pts
-			(xy 189.23 110.49) (xy 213.36 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdbfcec5-c43b-45ca-847c-4aa322de206a")
-	)
 	(label "COL1"
 		(at 33.02 148.59 0)
 		(effects
@@ -3967,7 +3853,17 @@
 		(uuid "3ca64cdc-a2d6-455d-a9fc-c3d12790c16a")
 	)
 	(label "VBAT"
-		(at 130.81 132.08 180)
+		(at 276.86 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e7580b4-9bd5-4b74-ae85-7ee50c4edf1c")
+	)
+	(label "VBAT"
+		(at 143.51 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3975,6 +3871,16 @@
 			(justify right bottom)
 		)
 		(uuid "4358045f-b04b-48dd-aa81-28be9089302b")
+	)
+	(label "LED"
+		(at 125.73 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43e4cb6b-7759-4d47-8595-b8410e5503d5")
 	)
 	(label "ROW3"
 		(at 87.63 163.83 180)
@@ -4016,16 +3922,6 @@
 		)
 		(uuid "62b1c244-4a21-417d-84bf-67611b803606")
 	)
-	(label "VBAT"
-		(at 276.86 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "631cc105-be94-440a-affc-79f4b39b78db")
-	)
 	(label "ROW2"
 		(at 87.63 160.02 180)
 		(effects
@@ -4045,6 +3941,16 @@
 			(justify left bottom)
 		)
 		(uuid "6e8e593e-2187-438a-8042-a5204eb4f3dc")
+	)
+	(label "VBAT"
+		(at 276.86 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a19d531-0203-4856-91f6-d28baed46235")
 	)
 	(label "ROW1"
 		(at 87.63 156.21 180)
@@ -4086,16 +3992,6 @@
 		)
 		(uuid "afd260bb-4cd1-4e32-aacb-498e5b2840a0")
 	)
-	(label "VBAT"
-		(at 276.86 19.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba48fe1d-614b-4a81-a3c0-42dc97df601d")
-	)
 	(label "ROW4"
 		(at 33.02 163.83 0)
 		(effects
@@ -4125,16 +4021,6 @@
 			(justify right bottom)
 		)
 		(uuid "c489e98c-bd5a-4e92-924b-9fcc52515611")
-	)
-	(label "VBAT"
-		(at 276.86 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c51c3878-cdf2-4c20-8823-d6c9bcbc16b7")
 	)
 	(label "COL2"
 		(at 64.77 27.94 0)
@@ -4176,15 +4062,15 @@
 		)
 		(uuid "e68f96a6-0414-4de3-a440-a87214890797")
 	)
-	(label "LED"
-		(at 125.73 30.48 0)
+	(label "VBAT"
+		(at 276.86 19.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "f079826f-75d5-4876-a58b-aed9365cf5c6")
+		(uuid "f01c26f6-8914-4899-ac8f-0554263e9706")
 	)
 	(label "COL0"
 		(at 31.75 27.94 0)
@@ -4219,7 +4105,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 118.11 124.46) (xy 133.35 124.46) (xy 133.35 151.13) (xy 118.11 151.13)
+				(xy 130.81 124.46) (xy 146.05 124.46) (xy 146.05 151.13) (xy 130.81 151.13)
 			)
 			(stroke
 				(width 0)
@@ -4279,21 +4165,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 140.97 123.19) (xy 162.56 123.19) (xy 162.56 151.13) (xy 140.97 151.13)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid a3bd0c5b-4c8f-455d-be54-8e1e02a6a8ad)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 123.19 158.75) (xy 157.48 158.75) (xy 157.48 179.07) (xy 123.19 179.07)
 			)
 			(stroke
@@ -4317,7 +4188,7 @@
 		(fields_autoplaced yes)
 		(uuid "0477d569-af18-4e9f-878d-34737ced97df")
 		(property "Reference" "D208"
-			(at 227.33 59.7602 0)
+			(at 247.65 47.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,14 +4196,14 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 227.33 57.2202 0)
+			(at 247.65 50.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
 			(at 236.22 45.72 0)
 			(effects
 				(font
@@ -4567,74 +4438,6 @@
 				)
 				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/da5fe3a2-4a92-43ed-9ec0-6725d754775e"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 144.78 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a4d76e8-9df7-41d7-b19e-9419310ab8c9")
-		(property "Reference" "H5"
-			(at 147.32 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 147.32 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Panelization:MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h"
-			(at 144.78 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 144.78 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "epsilon"
-				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/7be90cd0-d85a-44d1-91f1-da45a8636e80"
-					(reference "H5")
-					(unit 1)
-				)
-				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/da5fe3a2-4a92-43ed-9ec0-6725d754775e"
-					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -4993,76 +4796,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 269.24 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25f7d9cd-12e7-47e3-9e04-211c756b5bec")
-		(property "Reference" "#PWR0201"
-			(at 269.24 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d2bc8c4-0e69-414a-9c80-cde40e4cb492")
-		)
-		(instances
-			(project ""
-				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/7be90cd0-d85a-44d1-91f1-da45a8636e80"
-					(reference "#PWR0201")
-					(unit 1)
-				)
-				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/da5fe3a2-4a92-43ed-9ec0-6725d754775e"
-					(reference "#PWR0301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 58.42 72.39 270)
 		(mirror x)
@@ -5239,7 +4972,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fd2000b-e436-4850-ba68-ae30e606476f")
 		(property "Reference" "D222"
-			(at 179.07 105.4802 0)
+			(at 199.39 93.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,14 +4980,14 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 179.07 102.9402 0)
+			(at 199.39 96.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
 			(at 187.96 91.44 0)
 			(effects
 				(font
@@ -5412,7 +5145,7 @@
 		(fields_autoplaced yes)
 		(uuid "3249c3df-e4e1-4941-86fb-96530e7ff81d")
 		(property "Reference" "D221"
-			(at 203.2 105.4802 0)
+			(at 223.52 93.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,14 +5153,14 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 203.2 102.9402 0)
+			(at 223.52 96.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
 			(at 212.09 91.44 0)
 			(effects
 				(font
@@ -5851,6 +5584,76 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 266.7 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cb77213-ccfc-4690-8343-88887145a363")
+		(property "Reference" "#PWR0201"
+			(at 266.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86440b56-1364-4e93-a225-aa170c877976")
+		)
+		(instances
+			(project ""
+				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/7be90cd0-d85a-44d1-91f1-da45a8636e80"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/da5fe3a2-4a92-43ed-9ec0-6725d754775e"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 102.87 67.31 0)
 		(unit 1)
@@ -5925,7 +5728,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 261.62 99.06 180)
+		(at 237.49 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5934,7 +5737,7 @@
 		(fields_autoplaced yes)
 		(uuid "432b3e23-e445-4ffa-a5ae-dd6f354c47c1")
 		(property "Reference" "D219"
-			(at 251.46 105.4802 0)
+			(at 247.65 69.7798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,15 +5745,15 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 251.46 102.9402 0)
+			(at 247.65 72.3198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 260.35 91.44 0)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 238.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +5763,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 259.08 89.535 0)
+			(at 240.03 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +5773,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 261.62 99.06 0)
+			(at 237.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +5901,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 261.62 30.48 0)
+		(at 189.23 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6107,7 +5910,7 @@
 		(fields_autoplaced yes)
 		(uuid "4929cda0-0355-4451-b30e-6e6d35b20386")
 		(property "Reference" "D206"
-			(at 271.78 24.0598 0)
+			(at 199.39 47.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,15 +5918,15 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 271.78 26.5998 0)
+			(at 199.39 50.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 262.89 38.1 0)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 187.96 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,7 +5936,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 264.16 40.005 0)
+			(at 186.69 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +5946,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 261.62 30.48 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6164,7 +5967,7 @@
 			(uuid "ddd9844d-d18e-49e9-8be8-d61c4e387a8a")
 		)
 		(instances
-			(project ""
+			(project "epsilon"
 				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/7be90cd0-d85a-44d1-91f1-da45a8636e80"
 					(reference "D206")
 					(unit 1)
@@ -6178,145 +5981,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bbe000a-0d13-49bf-951a-a15cee34356b")
-		(property "Reference" "#PWR0202"
-			(at 269.24 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21a27b00-8415-4dc5-b8f2-a1cba2f02c9b")
-		)
-		(instances
-			(project ""
-				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/7be90cd0-d85a-44d1-91f1-da45a8636e80"
-					(reference "#PWR0202")
-					(unit 1)
-				)
-				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/da5fe3a2-4a92-43ed-9ec0-6725d754775e"
-					(reference "#PWR0302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 144.78 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56f9bbc0-fb01-4c75-a7a8-ced577d8b35c")
-		(property "Reference" "H3"
-			(at 147.32 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 147.32 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Panelization:MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h"
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 144.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "epsilon"
-				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/7be90cd0-d85a-44d1-91f1-da45a8636e80"
-					(reference "H3")
-					(unit 1)
-				)
-				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/da5fe3a2-4a92-43ed-9ec0-6725d754775e"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 127 140.97 0)
+		(at 139.7 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6325,7 +5990,7 @@
 		(fields_autoplaced yes)
 		(uuid "5718e953-3efe-45bf-8c69-4e52592b1f81")
 		(property "Reference" "#PWR01"
-			(at 127 147.32 0)
+			(at 139.7 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +5999,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 146.05 0)
+			(at 139.7 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6342,7 +6007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 140.97 0)
+			(at 139.7 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,7 +6016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 140.97 0)
+			(at 139.7 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6360,7 +6025,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 140.97 0)
+			(at 139.7 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,7 +6075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
 			(at 190.5 83.82 0)
 			(effects
 				(font
@@ -6490,7 +6155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
 			(at 214.63 38.1 0)
 			(effects
 				(font
@@ -6618,76 +6283,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 144.78 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "618a3a02-ba33-403f-829a-1e3e04f5ccc7")
-		(property "Reference" "H1"
-			(at 147.32 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 147.32 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Panelization:MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h"
-			(at 144.78 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 144.78 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/7be90cd0-d85a-44d1-91f1-da45a8636e80"
-					(reference "H1")
-					(unit 1)
-				)
-				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/da5fe3a2-4a92-43ed-9ec0-6725d754775e"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:SK6812")
-		(at 237.49 76.2 0)
+		(at 261.62 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6696,7 +6293,7 @@
 		(fields_autoplaced yes)
 		(uuid "64d3b20c-33e7-4c14-a34d-b31a0adb66d1")
 		(property "Reference" "D217"
-			(at 247.65 69.7798 0)
+			(at 271.78 93.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6704,15 +6301,15 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 247.65 72.3198 0)
+			(at 271.78 96.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 238.76 83.82 0)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 260.35 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,7 +6319,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 240.03 85.725 0)
+			(at 259.08 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6732,7 +6329,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 237.49 76.2 0)
+			(at 261.62 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6767,7 +6364,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 213.36 53.34 180)
+		(at 261.62 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6776,7 +6373,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a1c9cfe-9c42-42e2-b517-406e522447a1")
 		(property "Reference" "D209"
-			(at 203.2 59.7602 0)
+			(at 271.78 47.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6784,15 +6381,15 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 203.2 57.2202 0)
+			(at 271.78 50.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 212.09 45.72 0)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 260.35 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6802,7 +6399,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 210.82 43.815 0)
+			(at 259.08 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,7 +6409,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 213.36 53.34 0)
+			(at 261.62 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,7 +6453,7 @@
 		(fields_autoplaced yes)
 		(uuid "70a130ba-bbf1-47a3-84ab-1a2bd3676864")
 		(property "Reference" "D211"
-			(at 154.94 59.7602 0)
+			(at 175.26 47.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,14 +6461,14 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 154.94 57.2202 0)
+			(at 175.26 50.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
 			(at 163.83 45.72 0)
 			(effects
 				(font
@@ -6951,7 +6548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
 			(at 166.37 83.82 0)
 			(effects
 				(font
@@ -7007,7 +6604,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 213.36 76.2 0)
+		(at 237.49 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7016,7 +6613,7 @@
 		(fields_autoplaced yes)
 		(uuid "70e81c6c-88a4-4f59-8644-ad67a4ebab84")
 		(property "Reference" "D216"
-			(at 223.52 69.7798 0)
+			(at 247.65 93.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7024,15 +6621,15 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 223.52 72.3198 0)
+			(at 247.65 96.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 214.63 83.82 0)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 236.22 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,7 +6639,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 215.9 85.725 0)
+			(at 234.95 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,7 +6649,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 213.36 76.2 0)
+			(at 237.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7370,7 +6967,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
 			(at 262.89 83.82 0)
 			(effects
 				(font
@@ -7499,7 +7096,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 125.73 132.08 90)
+		(at 138.43 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7508,7 +7105,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b3f59dd-7e75-4c39-9a61-f13a1a94b708")
 		(property "Reference" "TP1"
-			(at 122.428 127 90)
+			(at 135.128 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7516,7 +7113,7 @@
 			)
 		)
 		(property "Value" "BAT"
-			(at 122.428 129.54 90)
+			(at 135.128 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,7 +7121,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 125.73 127 0)
+			(at 138.43 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7533,7 +7130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 127 0)
+			(at 138.43 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7542,7 +7139,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 125.73 132.08 0)
+			(at 138.43 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +7189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
 			(at 190.5 38.1 0)
 			(effects
 				(font
@@ -7959,7 +7556,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 189.23 53.34 180)
+		(at 261.62 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7968,7 +7565,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b9cb558-edb5-4388-b97b-c05efa96a36e")
 		(property "Reference" "D210"
-			(at 179.07 59.7602 0)
+			(at 271.78 24.0598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7976,15 +7573,15 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 179.07 57.2202 0)
+			(at 271.78 26.5998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 187.96 45.72 0)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 262.89 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +7591,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 186.69 43.815 0)
+			(at 264.16 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8004,7 +7601,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 189.23 53.34 0)
+			(at 261.62 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,7 +8231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
 			(at 142.24 83.82 0)
 			(effects
 				(font
@@ -8714,7 +8311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
 			(at 166.37 38.1 0)
 			(effects
 				(font
@@ -8770,7 +8367,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 261.62 53.34 180)
+		(at 213.36 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8779,7 +8376,7 @@
 		(fields_autoplaced yes)
 		(uuid "a315296a-9605-4891-a4bc-c7e99b7b3bd1")
 		(property "Reference" "D207"
-			(at 251.46 59.7602 0)
+			(at 223.52 47.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,15 +8384,15 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 251.46 57.2202 0)
+			(at 223.52 50.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 260.35 45.72 0)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 212.09 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,7 +8402,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 259.08 43.815 0)
+			(at 210.82 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8815,7 +8412,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 261.62 53.34 0)
+			(at 213.36 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9651,7 +9248,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 125.73 140.97 90)
+		(at 138.43 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9660,7 +9257,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf71c8c1-ce10-497b-b188-477cac250c22")
 		(property "Reference" "TP3"
-			(at 122.428 135.89 90)
+			(at 135.128 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9668,7 +9265,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 122.428 138.43 90)
+			(at 135.128 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9676,7 +9273,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 125.73 135.89 0)
+			(at 138.43 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9685,7 +9282,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 135.89 0)
+			(at 138.43 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +9291,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 125.73 140.97 0)
+			(at 138.43 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,7 +9410,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 237.49 99.06 180)
+		(at 213.36 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9822,7 +9419,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0b2df6d-e4c1-4fd5-ae32-73728f073eac")
 		(property "Reference" "D220"
-			(at 227.33 105.4802 0)
+			(at 223.52 69.7798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9830,15 +9427,15 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 227.33 102.9402 0)
+			(at 223.52 72.3198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 236.22 91.44 0)
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
+			(at 214.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9848,7 +9445,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 234.95 89.535 0)
+			(at 215.9 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9858,7 +9455,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 237.49 99.06 0)
+			(at 213.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10048,7 +9645,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce95d2fb-cb0d-4489-ae35-a19e846420a1")
 		(property "Reference" "D212"
-			(at 130.81 59.7602 0)
+			(at 151.13 47.8946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10056,14 +9653,14 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 130.81 57.2202 0)
+			(at 151.13 50.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
 			(at 139.7 45.72 0)
 			(effects
 				(font
@@ -10377,74 +9974,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 144.78 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7ef9228-83eb-4be5-b542-7a89421ea7af")
-		(property "Reference" "H7"
-			(at 147.32 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 147.32 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Panelization:MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h"
-			(at 144.78 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 144.78 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "epsilon"
-				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/7be90cd0-d85a-44d1-91f1-da45a8636e80"
-					(reference "H7")
-					(unit 1)
-				)
-				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/da5fe3a2-4a92-43ed-9ec0-6725d754775e"
-					(reference "H8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:SK6812")
 		(at 237.49 30.48 0)
 		(unit 1)
@@ -10470,7 +9999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
 			(at 238.76 38.1 0)
 			(effects
 				(font
@@ -10696,7 +10225,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "PCM_marbastlib-choc:LED_choc_6028R"
 			(at 142.24 38.1 0)
 			(effects
 				(font
@@ -10745,6 +10274,76 @@
 				)
 				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/da5fe3a2-4a92-43ed-9ec0-6725d754775e"
 					(reference "D301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8212955-fef7-4e94-a11c-4cfc53cefebc")
+		(property "Reference" "#PWR0202"
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2be4756-422d-409a-a80f-5a16c378ec49")
+		)
+		(instances
+			(project "epsilon"
+				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/7be90cd0-d85a-44d1-91f1-da45a8636e80"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+				(path "/c5ae99a5-a075-45c5-8d62-cf63db691a52/da5fe3a2-4a92-43ed-9ec0-6725d754775e"
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
