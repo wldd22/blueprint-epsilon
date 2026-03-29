@@ -649,7 +649,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/wldd/Downloads/epsilon grb/",
+      "plot": "../production/gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../production/PCB.step",
