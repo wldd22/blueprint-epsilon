@@ -4,7 +4,7 @@ Columnar split keyboard with 5 columns, 4 rows, and thumb clusters. Made for [Ha
 ## Details
 PCB made using KiCAD \
 Case made using Fusion360 \
-Firmware made using QMK
+Firmware made using ZMK
 
 ## About
 I've always wanted to use a split keyboard, and after making a macropad, I decided the next step was to make a bigger keyboard that could actually replace my regular one for at least some daily use.
