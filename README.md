@@ -19,7 +19,7 @@ I've always wanted to use a split keyboard, and after making a macropad, I decid
 ![PCB Render](images/PCB_Render.png)
 
 ### Case
-|||
+| Left Side | Right Side |
 |-|-|
 | ![Case Left](images/Case_Left.png) | ![Case Right](images/Case_Right.png) |
 
