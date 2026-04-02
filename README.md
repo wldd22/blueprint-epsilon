@@ -11,6 +11,8 @@ I've always wanted to use a split keyboard, and after making a macropad, I decid
 
 ## Images
 
+### CAD
+![CAD](images/CAD.png)
 ### Schematic
 ![Schematic](images/Schematic.png)
 
